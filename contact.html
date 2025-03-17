@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shonna's Portfolio</title>
+</head>
+<style>
+     header {
+        text-align: center;
+        background: rgb(120, 176, 225);;
+        color: white;
+        padding: 40px 20px;
+}
+header {
+    display: block;
+    unicode-bidi: isolate;
+}
+nav ul a {
+            margin: 2em;
+           padding: 1em;
+           background: rgb(34, 46, 57);
+           border-radius: 8px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          display: fixed;
+           
+       }
+body{
+    background-color: beige;
+}
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+button {
+  background: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+footer{
+    text-align: center;
+    background: rgb(74, 75, 75);
+    color: white;
+    padding: 40px 20px;
+    display: block;
+    unicode-bidi: isolate;
+}
+footer.h2{
+    color:aliceblue;
+}
+</style>
+<body>
+    <header>
+        <h1>Portfolio Website</h1>
+        <nav>
+          <ul>
+              <a href="index.html">home</a>
+              <a href="shona.html">About us</a>
+              <a href="project.html">Projects</a>
+              <a href="contact.html">Contact</a>
+          </ul>
+          </nav> 
+    </header>
+    <h1>Contact Us</h1>
+  <form action="submit-form.php" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Your Name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Your Email" required>
+    
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+    
+    <button type="submit" ><a href="mailto:team12345@gamil.com">Send</button>
+  </form>
+        
+    </section>
+    <footer>
+        <h2>Contact US</h2>
+        <p><a href="mailto:team12345@gamil.com">team12345@yahoo.com</a></p>
+        <p>&copy; 2025 Our team's Portfolio</p>
+    </footer>
+</body>
+</html>
